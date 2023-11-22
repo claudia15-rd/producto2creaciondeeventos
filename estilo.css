@@ -1,0 +1,143 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor{
+
+width: 100%;
+height: 100vh;
+background-color: #c2c5b5;
+padding-left: 8%;
+padding-right: 8%;
+box-sizing: border-box;
+}
+
+.navb{
+
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+
+    width: 50px;
+    cursor: pointer;
+}
+
+.menu-icon{
+
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+nav{
+
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.row {
+
+    display: flex;
+    height: 88%;
+    align-items: center;
+   
+}
+.col{
+
+    flex-basis: 50%;
+}
+
+h1{
+
+    color: #444;
+    font-size: 50px;
+}
+
+p{
+
+    color: #444;
+    font-size: 12px;
+    line-height: 15px;
+   text-align: justify;
+}
+
+button {
+
+    width: 180px;
+    color: #e3e5d7;
+    font-size: 15px;
+    padding: 12px 0;
+    background: #444;
+    border: 0;
+    border-radius: 20px;
+    margin-top: 8px;
+    cursor: pointer;
+
+}
+
+.galeria {
+
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px  25px;
+    box-sizing: border-box;
+    margin: 10px 15px;
+    background-image: 
+    url(./conferencia\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    
+}
+.foto2{
+
+    background-image: url(./conferencia\ \(4\).jpg);
+}
+.foto3{
+
+    background-image:linear-gradient(rgba(0,0,0,0.5)rgba(0,0,0,0.5)), url(./conferencia\ \(2\).jpg);
+}
+
+.foto4{
+
+    background-image: url(./conferencia\ \(3\).jpg);
+}
+.galeria:hover {
+    transform: translate(-10px);
+}
+
+h5 {
+
+    color: #444;
+}
+
+
+
+@media (max-width: 900px) {
+
+   
+    
+}
